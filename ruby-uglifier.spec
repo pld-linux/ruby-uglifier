@@ -13,7 +13,7 @@ BuildRequires:	rpmbuild(macros) >= 1.656
 %if %(locale -a | grep -q '^en_US$'; echo $?)
 BuildRequires:	glibc-localedb-all
 %endif
-Requires:	ruby-json
+Requires:	ruby-json >= 1.8.0
 Requires:	ruby-execjs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
