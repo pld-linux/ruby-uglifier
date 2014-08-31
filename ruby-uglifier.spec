@@ -2,7 +2,7 @@
 Summary:	Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby
 Name:		ruby-%{pkgname}
 Version:	2.5.3
-Release:	0.1
+Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
